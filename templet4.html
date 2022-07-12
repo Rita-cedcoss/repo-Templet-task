@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+         margin: 0%;
+         padding: 0%;   
+        }
+        #outer
+        {
+            height: 630px;
+            width: 100%;
+            background-color: aquamarine;
+           
+            padding-top: 20px;
+            
+        }
+        table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  align-items: center;
+}
+tr ,td{
+
+    height: 50px;
+    width: 280px;
+    padding-left: 20px;
+
+}
+input text
+{
+height: 20px;
+width: 250px;
+}
+#table1
+{
+     display: flex;
+    justify-content: center;
+}
+button{
+    background-color: #4753f5; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+    </style>
+</head>
+<body>
+
+    <div id="outer">
+           <h1 style="text-align:center; padding-bottom:20px;">Data In Table format</h1>
+           <div id="table1">
+            <table >
+            <tr>
+                <td>Name</td>
+                <td><input type="text" placeholder="Name"></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="email" placeholder="Email"></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="text" placeholder="password"></td>
+            </tr>
+            <tr>
+                <td>Approval Required</td>
+                <td><input type="checkbox">Do you Approve</td>
+            </tr>
+            <tr>
+                <td>Pick Your Favourite</td>
+                <td><input type="radio" > Choice A<br>
+                <input type="radio" >Choice B<br>
+                <input type="radio" >choice c</td>
+            </tr>
+            <tr>
+                <td>Pop Menu</td>
+                <td>
+                    <select>
+                        <option>Select Menu</option>
+                        <option>POP1</option>
+                        <option>POP1</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Menu Name</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Field Ignored by KM </td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td>Text Area</td>
+                <td><textarea></textarea></td>
+            </tr>
+            
+           
+           </table>
+        </div>
+        
+            <div style="padding-top: 20px;font-size: 16px;">
+                <center>
+            <button>Save</button> <button>Cancel</button> <button>Resize
+
+            </button></center>
+        </div>
+        </td>
+    
+
+    </div>
+</body>
+</html>
